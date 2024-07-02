@@ -8,6 +8,7 @@ The goal of this demo is to show how to use AWS SQS to execute code on remote ma
 - 2 SQS queues configured - *trigger* and *output*, check the example in `test/sqs.tf` if unsure how to configure
 - set queue URLs in `run-on-ec2.py`, `trigger-execution.py` and `retrieve-output.py`
 - set command to execute in `run-on-ec2.py`
+- `boto3` installed on target environment 
 
 If you want to create test infrastructure:
 
